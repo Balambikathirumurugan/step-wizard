@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Step Wizard</title>
+    <link rel="stylesheet" href="wizard1.css">
+</head>
+<body>
+
+    <div class="wizard-container">
+        <div class="progress-bar">
+            <div class="step active">✔ Start</div>
+            <div class="step">Step 1</div>
+            <div class="step">Step 2</div>
+            <div class="step">Step 3</div>
+            <div class="step">Finish</div>
+        </div>
+
+        <div class="wizard-buttons">
+            <button id="prevBtn" onclick="changeStep(-1)">←</button>
+            <button id="nextBtn" onclick="changeStep(1)">→</button>
+        </div>
+    </div>
+
+    <script src="wizard2.js"></script>
+</body>
+</html>
